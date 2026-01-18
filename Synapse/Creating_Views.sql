@@ -1,0 +1,69 @@
+-- CREATE VIEW Gold.Calendar
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Calendar/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Customers
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Customers/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Product_Subcategories
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Product_Subcategories/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Products
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Products/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Returns
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Returns/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Sales
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Sales/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
+
+-- CREATE VIEW Gold.Territories
+-- AS
+-- SELECT *
+-- FROM
+-- OPENROWSET
+-- (
+--     BULK 'https://myfirstazurestoragea.dfs.core.windows.net/silver/Territories/',
+--     FORMAT = 'PARQUET'
+-- ) AS Temp
