@@ -1,3 +1,5 @@
+-- CREATE SCHEMA Gold
+
 -- CREATE VIEW Gold.Calendar
 -- AS
 -- SELECT *
